@@ -16,7 +16,7 @@ class Application(Frame):
     def createWidgets(self):
         self.nameInput = Entry(self)
         self.nameInput.pack()
-        self.alertButton = Button(self, text='Hello', command=self.hello)
+        self.alertButton = Button(self, text='Hello，ui', command=self.hello)
         self.alertButton.pack()
 
     def hello(self):
